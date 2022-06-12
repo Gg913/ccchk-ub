@@ -12,7 +12,7 @@
     "API_HASH": {
       "description": "Get Api hash from :-  https://my.telegram.org/auth",
       "required": true,
-      "value": ""
+      "value": "7f5324f02d80178123b7b10d6769c664"
     },
     "STRING_SESSION": {
       "description": "Gen your telethon string session",
