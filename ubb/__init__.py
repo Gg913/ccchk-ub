@@ -11,10 +11,10 @@ LOGS = logging.getLogger(__name__)
 
 ENV = bool(os.getenv('ENV', True))
 API_ID = int(os.getenv('API_ID', True))
-API_HASH = os.getenv('API_HASH', None)
-URL = os.getenv('URL', None)
-DUMP_ID = int(os.getenv('DUMP_ID', None))
-STRING_SESSION = os.getenv('STRING_SESSION', None)
+API_HASH = os.getenv('API_HASH', True)
+URL = os.getenv('URL', True)
+DUMP_ID = int(os.getenv('DUMP_ID', True))
+STRING_SESSION = os.getenv('STRING_SESSION', True)
 
 Ubot = TelegramClient(StringSession(STRING_SESSION),
                       API_ID,
