@@ -10,7 +10,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 LOGS = logging.getLogger(__name__)
 
 ENV = bool(os.getenv('ENV', True))
-API_ID = int(os.getenv('API_ID', None))
+API_ID = int(os.getenv('API_ID', True))
 API_HASH = os.getenv('API_HASH', None)
 URL = os.getenv('URL', None)
 DUMP_ID = int(os.getenv('DUMP_ID', None))
