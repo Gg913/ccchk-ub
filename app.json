@@ -17,17 +17,17 @@
     "STRING_SESSION": {
       "description": "Gen your telethon string session",
       "required": true,
-      "value": ""
+      "value": "5282113283:AAGkKrcrnMMZs70AujcLnLp2MPXphGlCxuk"
     },
     "DUMP_ID": {
       "description": "Channelid where u want to drop ccs",
       "required": true,
-      "value": ""
+      "value": "-1001541044740"
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/?cc=",
       "required": true,
-      "value": ""
+      "value": "https://mchero9.herokuapp.com/"
     }
   },
   "stack": "heroku-20",
