@@ -7,7 +7,7 @@
     "API_ID": {
       "description": "Get Api id :-  https://my.telegram.org/auth",
       "required": true,
-      "value": ""
+      "value": "13349016"
     },
     "API_HASH": {
       "description": "Get Api hash from :-  https://my.telegram.org/auth",
